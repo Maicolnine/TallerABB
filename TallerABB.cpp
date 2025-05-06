@@ -1,3 +1,4 @@
+// Michael Stwar Murillo Ruiz  Cesar Alberto Agudelo
 #include <iostream>
 #include <cstring> // Solo para strcmp
 using namespace std;
