@@ -148,18 +148,18 @@ void mostrarInorden(nodo *raiz) {
     if (raiz == NULL) return;
     mostrarInorden(raiz->izquierdo);
     cout << "\nNombre: " << raiz->nombre
-         << " | Fecha: " << raiz->fecha
-         << " | Genero: " << raiz->genero
-         << " | Dinero: " << raiz->dinero << "M\n";
+        << " | Fecha: " << raiz->fecha
+        << " | Genero: " << raiz->genero
+        << " | Dinero: " << raiz->dinero << "M\n";
     mostrarInorden(raiz->derecho);
 }
 
 void mostrarPreorden(nodo *raiz) {
     if (raiz == NULL) return;
     cout << "\nNombre: " << raiz->nombre
-         << " | Fecha: " << raiz->fecha
-         << " | Genero: " << raiz->genero
-         << " | Dinero: " << raiz->dinero << "M\n";
+        << " | Fecha: " << raiz->fecha
+        << " | Genero: " << raiz->genero
+        << " | Dinero: " << raiz->dinero << "M\n";
     mostrarPreorden(raiz->izquierdo);
     mostrarPreorden(raiz->derecho);
 }
