@@ -1,4 +1,4 @@
-//Fauyi Andrei Ortega Estrada y Julián Andrés Lizalda Aristizabal 
+//Michael stwar Murillo Ruiz, Julian Andres lizalda Aristizabal, Pool Alexander delgado palacio
 #include <iostream>
 #include <cstring> // Para strcmp, strcpy
 
